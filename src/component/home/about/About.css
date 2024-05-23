@@ -1,0 +1,46 @@
+.about-section{
+    width: 100%;
+    /* height: 50vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 10px;
+    background-color: rgb(119, 119, 78);
+}
+
+.about-section .inner{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-section .inner h2{
+    text-align: center;
+    font-size: 35px;
+    color: goldenrod;
+}
+
+.about-section p{
+    color: white;
+}
+
+.about-section .btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: goldenrod;
+    border-radius: 5px;
+    outline-color: none;
+    border: none;
+    display: flex;
+     gap: 30px;
+     color: black;
+     font-size: 16px;
+}
+
+@media screen and (max-width:950px) {
+    .about-section .inner{
+        width: 100%;
+    }
+}
